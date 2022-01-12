@@ -1,0 +1,712 @@
+[13-Oct-2021 10:04:38 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/translation-install.php on line 68
+[13-Oct-2021 10:04:38 UTC] PHP Stack trace:
+[13-Oct-2021 10:04:38 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/options-general.php:0
+[13-Oct-2021 10:04:38 UTC] PHP   2. wp_get_available_translations() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/options-general.php:159
+[13-Oct-2021 10:04:38 UTC] PHP   3. translations_api() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/translation-install.php:133
+[13-Oct-2021 10:04:38 UTC] PHP   4. trigger_error() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/translation-install.php:68
+[13-Oct-2021 11:27:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'morote_post_types' not found or invalid function name in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php on line 303
+[13-Oct-2021 11:27:35 UTC] PHP Stack trace:
+[13-Oct-2021 11:27:35 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/users.php:0
+[13-Oct-2021 11:27:35 UTC] PHP   2. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/users.php:11
+[13-Oct-2021 11:27:35 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin.php:34
+[13-Oct-2021 11:27:35 UTC] PHP   4. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-load.php:50
+[13-Oct-2021 11:27:35 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-config.php:84
+[13-Oct-2021 11:27:35 UTC] PHP   6. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-settings.php:578
+[13-Oct-2021 11:27:35 UTC] PHP   7. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 11:27:35 UTC] PHP   8. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 11:27:36 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'morote_post_types' not found or invalid function name in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php on line 303
+[13-Oct-2021 11:27:36 UTC] PHP Stack trace:
+[13-Oct-2021 11:27:36 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:0
+[13-Oct-2021 11:27:36 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:17
+[13-Oct-2021 11:27:36 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-blog-header.php:13
+[13-Oct-2021 11:27:36 UTC] PHP   4. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-load.php:50
+[13-Oct-2021 11:27:36 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-config.php:84
+[13-Oct-2021 11:27:36 UTC] PHP   6. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-settings.php:578
+[13-Oct-2021 11:27:36 UTC] PHP   7. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 11:27:36 UTC] PHP   8. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 11:31:41 UTC] PHP Parse error:  syntax error, unexpected 'register_post_type' (T_STRING) in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php on line 31
+[13-Oct-2021 11:34:32 UTC] PHP Fatal error:  Cannot redeclare morote_post_types() (previously declared in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:3) in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/functions.php on line 107
+[13-Oct-2021 11:34:32 UTC] PHP Stack trace:
+[13-Oct-2021 11:34:32 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/plugins.php:0
+[13-Oct-2021 11:34:32 UTC] PHP   2. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/plugins.php:10
+[13-Oct-2021 11:34:32 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin.php:34
+[13-Oct-2021 11:34:32 UTC] PHP   4. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-load.php:50
+[13-Oct-2021 11:34:32 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-config.php:84
+[13-Oct-2021 11:34:33 UTC] PHP Fatal error:  Cannot redeclare morote_post_types() (previously declared in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:3) in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/functions.php on line 107
+[13-Oct-2021 11:34:33 UTC] PHP Stack trace:
+[13-Oct-2021 11:34:33 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:0
+[13-Oct-2021 11:34:33 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:17
+[13-Oct-2021 11:34:33 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-blog-header.php:13
+[13-Oct-2021 11:34:33 UTC] PHP   4. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-load.php:50
+[13-Oct-2021 11:34:33 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-config.php:84
+[13-Oct-2021 11:34:46 UTC] PHP Fatal error:  Cannot redeclare morote_post_types() (previously declared in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:3) in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/functions.php on line 70
+[13-Oct-2021 11:34:46 UTC] PHP Stack trace:
+[13-Oct-2021 11:34:46 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/plugins.php:0
+[13-Oct-2021 11:34:46 UTC] PHP   2. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/plugins.php:10
+[13-Oct-2021 11:34:46 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin.php:34
+[13-Oct-2021 11:34:46 UTC] PHP   4. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-load.php:50
+[13-Oct-2021 11:34:46 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-config.php:84
+[13-Oct-2021 11:34:46 UTC] PHP   6. include() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-settings.php:546
+[13-Oct-2021 11:34:46 UTC] PHP Fatal error:  Cannot redeclare morote_post_types() (previously declared in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:3) in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/functions.php on line 70
+[13-Oct-2021 11:34:46 UTC] PHP Stack trace:
+[13-Oct-2021 11:34:46 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:0
+[13-Oct-2021 11:34:46 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:17
+[13-Oct-2021 11:34:46 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-blog-header.php:13
+[13-Oct-2021 11:34:46 UTC] PHP   4. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-load.php:50
+[13-Oct-2021 11:34:46 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-config.php:84
+[13-Oct-2021 11:34:46 UTC] PHP   6. include() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-settings.php:546
+[13-Oct-2021 11:35:28 UTC] PHP Fatal error:  Cannot redeclare morote_post_types() (previously declared in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:3) in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/functions.php on line 71
+[13-Oct-2021 11:35:28 UTC] PHP Stack trace:
+[13-Oct-2021 11:35:28 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/plugins.php:0
+[13-Oct-2021 11:35:28 UTC] PHP   2. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/plugins.php:10
+[13-Oct-2021 11:35:28 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin.php:34
+[13-Oct-2021 11:35:28 UTC] PHP   4. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-load.php:50
+[13-Oct-2021 11:35:28 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-config.php:84
+[13-Oct-2021 11:35:29 UTC] PHP Fatal error:  Cannot redeclare morote_post_types() (previously declared in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:3) in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/functions.php on line 71
+[13-Oct-2021 11:35:29 UTC] PHP Stack trace:
+[13-Oct-2021 11:35:29 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:0
+[13-Oct-2021 11:35:29 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:17
+[13-Oct-2021 11:35:29 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-blog-header.php:13
+[13-Oct-2021 11:35:29 UTC] PHP   4. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-load.php:50
+[13-Oct-2021 11:35:29 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-config.php:84
+[13-Oct-2021 11:58:47 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/update.php on line 693
+[13-Oct-2021 11:58:47 UTC] PHP Stack trace:
+[13-Oct-2021 11:58:47 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/update.php:0
+[13-Oct-2021 11:58:47 UTC] PHP   2. Plugin_Upgrader->install() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/update.php:171
+[13-Oct-2021 11:58:47 UTC] PHP   3. Plugin_Upgrader->run() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/class-plugin-upgrader.php:137
+[13-Oct-2021 11:58:47 UTC] PHP   4. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/class-wp-upgrader.php:857
+[13-Oct-2021 11:58:47 UTC] PHP   5. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 11:58:47 UTC] PHP   6. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 11:58:47 UTC] PHP   7. wp_update_themes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:301
+[13-Oct-2021 11:58:47 UTC] PHP   8. trigger_error() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/update.php:693
+[13-Oct-2021 13:43:43 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, array given in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/formatting.php on line 4315
+[13-Oct-2021 13:43:43 UTC] PHP Stack trace:
+[13-Oct-2021 13:43:43 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:0
+[13-Oct-2021 13:43:43 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:17
+[13-Oct-2021 13:43:43 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-blog-header.php:19
+[13-Oct-2021 13:43:43 UTC] PHP   4. include() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template-loader.php:106
+[13-Oct-2021 13:43:43 UTC] PHP   5. generate_do_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/single.php:29
+[13-Oct-2021 13:43:43 UTC] PHP   6. get_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/inc/theme-functions.php:595
+[13-Oct-2021 13:43:43 UTC] PHP   7. locate_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/general-template.php:204
+[13-Oct-2021 13:43:43 UTC] PHP   8. load_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:716
+[13-Oct-2021 13:43:43 UTC] PHP   9. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:772
+[13-Oct-2021 13:43:43 UTC] PHP  10. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/content-single.php:99
+[13-Oct-2021 13:43:43 UTC] PHP  11. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 13:43:43 UTC] PHP  12. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 13:43:43 UTC] PHP  13. GeneratePress_Block_Element->build_hook() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:43:43 UTC] PHP  14. GeneratePress_Elements_Helper::build_content() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-block.php:397
+[13-Oct-2021 13:43:43 UTC] PHP  15. do_blocks() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-elements-helper.php:151
+[13-Oct-2021 13:43:43 UTC] PHP  16. render_block() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/blocks.php:906
+[13-Oct-2021 13:43:43 UTC] PHP  17. WP_Block->render() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/blocks.php:868
+[13-Oct-2021 13:43:43 UTC] PHP  18. WP_Block->render() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-block.php:211
+[13-Oct-2021 13:43:43 UTC] PHP  19. GeneratePress_Block_Elements->do_dynamic_image_block() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-block.php:221
+[13-Oct-2021 13:43:43 UTC] PHP  20. esc_url() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-block-elements.php:525
+[13-Oct-2021 13:43:43 UTC] PHP  21. ltrim() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/formatting.php:4315
+[13-Oct-2021 13:43:52 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, array given in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/formatting.php on line 4315
+[13-Oct-2021 13:43:52 UTC] PHP Stack trace:
+[13-Oct-2021 13:43:52 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:0
+[13-Oct-2021 13:43:52 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:17
+[13-Oct-2021 13:43:52 UTC] PHP   3. wp() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-blog-header.php:16
+[13-Oct-2021 13:43:52 UTC] PHP   4. WP->main() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/functions.php:1291
+[13-Oct-2021 13:43:52 UTC] PHP   5. WP->parse_request() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp.php:750
+[13-Oct-2021 13:43:52 UTC] PHP   6. do_action_ref_array() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp.php:388
+[13-Oct-2021 13:43:52 UTC] PHP   7. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:518
+[13-Oct-2021 13:43:52 UTC] PHP   8. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 13:43:52 UTC] PHP   9. rest_api_loaded() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:43:52 UTC] PHP  10. WP_REST_Server->serve_request() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/rest-api.php:370
+[13-Oct-2021 13:43:52 UTC] PHP  11. WP_REST_Server->dispatch() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[13-Oct-2021 13:43:52 UTC] PHP  12. WP_REST_Server->respond_to_request() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[13-Oct-2021 13:43:52 UTC] PHP  13. WP_REST_Posts_Controller->update_item() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[13-Oct-2021 13:43:52 UTC] PHP  14. WP_REST_Posts_Controller->prepare_item_for_response() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:893
+[13-Oct-2021 13:43:52 UTC] PHP  15. apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1792
+[13-Oct-2021 13:43:52 UTC] PHP  16. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:189
+[13-Oct-2021 13:43:52 UTC] PHP  17. do_blocks() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:43:52 UTC] PHP  18. render_block() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/blocks.php:906
+[13-Oct-2021 13:43:52 UTC] PHP  19. WP_Block->render() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/blocks.php:868
+[13-Oct-2021 13:43:52 UTC] PHP  20. WP_Block->render() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-block.php:211
+[13-Oct-2021 13:43:52 UTC] PHP  21. GeneratePress_Block_Elements->do_dynamic_image_block() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-block.php:221
+[13-Oct-2021 13:43:52 UTC] PHP  22. esc_url() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-block-elements.php:525
+[13-Oct-2021 13:43:52 UTC] PHP  23. ltrim() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/formatting.php:4315
+[13-Oct-2021 13:43:53 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, array given in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/formatting.php on line 4315
+[13-Oct-2021 13:43:53 UTC] PHP Stack trace:
+[13-Oct-2021 13:43:53 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 13:43:53 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:187
+[13-Oct-2021 13:43:53 UTC] PHP   3. block_editor_rest_api_preload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-blocks.php:68
+[13-Oct-2021 13:43:53 UTC] PHP   4. array_reduce() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/block-editor.php:444
+[13-Oct-2021 13:43:53 UTC] PHP   5. rest_preload_api_request() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/block-editor.php:444
+[13-Oct-2021 13:43:53 UTC] PHP   6. rest_do_request() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/rest-api.php:2832
+[13-Oct-2021 13:43:53 UTC] PHP   7. WP_REST_Server->dispatch() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/rest-api.php:495
+[13-Oct-2021 13:43:53 UTC] PHP   8. WP_REST_Server->respond_to_request() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[13-Oct-2021 13:43:53 UTC] PHP   9. WP_REST_Posts_Controller->get_item() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[13-Oct-2021 13:43:53 UTC] PHP  10. WP_REST_Posts_Controller->prepare_item_for_response() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:550
+[13-Oct-2021 13:43:53 UTC] PHP  11. apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1792
+[13-Oct-2021 13:43:53 UTC] PHP  12. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:189
+[13-Oct-2021 13:43:53 UTC] PHP  13. do_blocks() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:43:53 UTC] PHP  14. render_block() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/blocks.php:906
+[13-Oct-2021 13:43:53 UTC] PHP  15. WP_Block->render() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/blocks.php:868
+[13-Oct-2021 13:43:53 UTC] PHP  16. WP_Block->render() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-block.php:211
+[13-Oct-2021 13:43:53 UTC] PHP  17. GeneratePress_Block_Elements->do_dynamic_image_block() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-block.php:221
+[13-Oct-2021 13:43:53 UTC] PHP  18. esc_url() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-block-elements.php:525
+[13-Oct-2021 13:43:53 UTC] PHP  19. ltrim() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/formatting.php:4315
+[13-Oct-2021 13:44:18 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, array given in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/formatting.php on line 4315
+[13-Oct-2021 13:44:18 UTC] PHP Stack trace:
+[13-Oct-2021 13:44:18 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:0
+[13-Oct-2021 13:44:18 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:17
+[13-Oct-2021 13:44:18 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-blog-header.php:19
+[13-Oct-2021 13:44:18 UTC] PHP   4. include() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template-loader.php:106
+[13-Oct-2021 13:44:18 UTC] PHP   5. generate_do_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/single.php:29
+[13-Oct-2021 13:44:18 UTC] PHP   6. get_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/inc/theme-functions.php:595
+[13-Oct-2021 13:44:18 UTC] PHP   7. locate_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/general-template.php:204
+[13-Oct-2021 13:44:18 UTC] PHP   8. load_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:716
+[13-Oct-2021 13:44:18 UTC] PHP   9. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:772
+[13-Oct-2021 13:44:18 UTC] PHP  10. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/content-single.php:99
+[13-Oct-2021 13:44:18 UTC] PHP  11. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 13:44:18 UTC] PHP  12. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 13:44:18 UTC] PHP  13. GeneratePress_Block_Element->build_hook() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:44:18 UTC] PHP  14. GeneratePress_Elements_Helper::build_content() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-block.php:397
+[13-Oct-2021 13:44:18 UTC] PHP  15. do_blocks() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-elements-helper.php:151
+[13-Oct-2021 13:44:18 UTC] PHP  16. render_block() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/blocks.php:906
+[13-Oct-2021 13:44:18 UTC] PHP  17. WP_Block->render() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/blocks.php:868
+[13-Oct-2021 13:44:18 UTC] PHP  18. WP_Block->render() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-block.php:211
+[13-Oct-2021 13:44:18 UTC] PHP  19. GeneratePress_Block_Elements->do_dynamic_image_block() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-block.php:221
+[13-Oct-2021 13:44:18 UTC] PHP  20. esc_url() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-block-elements.php:525
+[13-Oct-2021 13:44:18 UTC] PHP  21. ltrim() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/formatting.php:4315
+[13-Oct-2021 13:54:09 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php on line 6
+[13-Oct-2021 13:54:09 UTC] PHP Stack trace:
+[13-Oct-2021 13:54:09 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:0
+[13-Oct-2021 13:54:09 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:17
+[13-Oct-2021 13:54:09 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-blog-header.php:19
+[13-Oct-2021 13:54:09 UTC] PHP   4. include() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template-loader.php:106
+[13-Oct-2021 13:54:09 UTC] PHP   5. generate_do_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/single.php:29
+[13-Oct-2021 13:54:09 UTC] PHP   6. get_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/inc/theme-functions.php:595
+[13-Oct-2021 13:54:09 UTC] PHP   7. locate_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/general-template.php:204
+[13-Oct-2021 13:54:09 UTC] PHP   8. load_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:716
+[13-Oct-2021 13:54:09 UTC] PHP   9. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:772
+[13-Oct-2021 13:54:09 UTC] PHP  10. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/content-single.php:99
+[13-Oct-2021 13:54:09 UTC] PHP  11. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 13:54:09 UTC] PHP  12. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 13:54:09 UTC] PHP  13. GeneratePress_Block_Element->build_hook() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:54:09 UTC] PHP  14. GeneratePress_Elements_Helper::build_content() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-block.php:397
+[13-Oct-2021 13:54:09 UTC] PHP  15. apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-elements-helper.php:151
+[13-Oct-2021 13:54:09 UTC] PHP  16. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:189
+[13-Oct-2021 13:54:09 UTC] PHP  17. generate_add_block_element_content_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:54:09 UTC] PHP  18. do_shortcode() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/elements.php:182
+[13-Oct-2021 13:54:09 UTC] PHP  19. preg_replace_callback() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:228
+[13-Oct-2021 13:54:09 UTC] PHP  20. do_shortcode_tag() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:228
+[13-Oct-2021 13:54:09 UTC] PHP  21. {closure:/home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:38-60}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:356
+[13-Oct-2021 13:54:09 UTC] PHP  22. acf_photo_gallery() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:42
+[13-Oct-2021 13:54:09 UTC] PHP  23. acf_photo_gallery_make_images() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php:45
+[13-Oct-2021 13:54:09 UTC] PHP  24. explode() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php:6
+[13-Oct-2021 13:54:16 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php on line 6
+[13-Oct-2021 13:54:16 UTC] PHP Stack trace:
+[13-Oct-2021 13:54:16 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:0
+[13-Oct-2021 13:54:16 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:17
+[13-Oct-2021 13:54:16 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-blog-header.php:19
+[13-Oct-2021 13:54:16 UTC] PHP   4. include() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template-loader.php:106
+[13-Oct-2021 13:54:16 UTC] PHP   5. generate_do_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/single.php:29
+[13-Oct-2021 13:54:16 UTC] PHP   6. get_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/inc/theme-functions.php:595
+[13-Oct-2021 13:54:16 UTC] PHP   7. locate_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/general-template.php:204
+[13-Oct-2021 13:54:16 UTC] PHP   8. load_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:716
+[13-Oct-2021 13:54:16 UTC] PHP   9. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:772
+[13-Oct-2021 13:54:16 UTC] PHP  10. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/content-single.php:99
+[13-Oct-2021 13:54:16 UTC] PHP  11. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 13:54:16 UTC] PHP  12. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 13:54:16 UTC] PHP  13. GeneratePress_Block_Element->build_hook() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:54:16 UTC] PHP  14. GeneratePress_Elements_Helper::build_content() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-block.php:397
+[13-Oct-2021 13:54:16 UTC] PHP  15. apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-elements-helper.php:151
+[13-Oct-2021 13:54:16 UTC] PHP  16. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:189
+[13-Oct-2021 13:54:16 UTC] PHP  17. generate_add_block_element_content_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:54:16 UTC] PHP  18. do_shortcode() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/elements.php:182
+[13-Oct-2021 13:54:16 UTC] PHP  19. preg_replace_callback() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:228
+[13-Oct-2021 13:54:16 UTC] PHP  20. do_shortcode_tag() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:228
+[13-Oct-2021 13:54:16 UTC] PHP  21. {closure:/home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:38-60}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:356
+[13-Oct-2021 13:54:16 UTC] PHP  22. acf_photo_gallery() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:42
+[13-Oct-2021 13:54:16 UTC] PHP  23. acf_photo_gallery_make_images() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php:45
+[13-Oct-2021 13:54:16 UTC] PHP  24. explode() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php:6
+[13-Oct-2021 13:54:44 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php on line 6
+[13-Oct-2021 13:54:44 UTC] PHP Stack trace:
+[13-Oct-2021 13:54:44 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:0
+[13-Oct-2021 13:54:44 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:17
+[13-Oct-2021 13:54:44 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-blog-header.php:19
+[13-Oct-2021 13:54:44 UTC] PHP   4. include() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template-loader.php:106
+[13-Oct-2021 13:54:44 UTC] PHP   5. generate_do_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/single.php:29
+[13-Oct-2021 13:54:44 UTC] PHP   6. get_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/inc/theme-functions.php:595
+[13-Oct-2021 13:54:44 UTC] PHP   7. locate_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/general-template.php:204
+[13-Oct-2021 13:54:44 UTC] PHP   8. load_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:716
+[13-Oct-2021 13:54:44 UTC] PHP   9. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:772
+[13-Oct-2021 13:54:44 UTC] PHP  10. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/content-single.php:99
+[13-Oct-2021 13:54:44 UTC] PHP  11. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 13:54:44 UTC] PHP  12. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 13:54:44 UTC] PHP  13. GeneratePress_Block_Element->build_hook() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:54:44 UTC] PHP  14. GeneratePress_Elements_Helper::build_content() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-block.php:397
+[13-Oct-2021 13:54:44 UTC] PHP  15. apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-elements-helper.php:151
+[13-Oct-2021 13:54:44 UTC] PHP  16. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:189
+[13-Oct-2021 13:54:44 UTC] PHP  17. generate_add_block_element_content_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:54:44 UTC] PHP  18. do_shortcode() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/elements.php:182
+[13-Oct-2021 13:54:44 UTC] PHP  19. preg_replace_callback() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:228
+[13-Oct-2021 13:54:44 UTC] PHP  20. do_shortcode_tag() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:228
+[13-Oct-2021 13:54:44 UTC] PHP  21. {closure:/home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:38-60}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:356
+[13-Oct-2021 13:54:44 UTC] PHP  22. acf_photo_gallery() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:42
+[13-Oct-2021 13:54:44 UTC] PHP  23. acf_photo_gallery_make_images() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php:45
+[13-Oct-2021 13:54:44 UTC] PHP  24. explode() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php:6
+[13-Oct-2021 13:55:08 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php on line 6
+[13-Oct-2021 13:55:08 UTC] PHP Stack trace:
+[13-Oct-2021 13:55:08 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:0
+[13-Oct-2021 13:55:08 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:17
+[13-Oct-2021 13:55:08 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-blog-header.php:19
+[13-Oct-2021 13:55:08 UTC] PHP   4. include() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template-loader.php:106
+[13-Oct-2021 13:55:08 UTC] PHP   5. generate_do_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/single.php:29
+[13-Oct-2021 13:55:08 UTC] PHP   6. get_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/inc/theme-functions.php:595
+[13-Oct-2021 13:55:08 UTC] PHP   7. locate_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/general-template.php:204
+[13-Oct-2021 13:55:08 UTC] PHP   8. load_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:716
+[13-Oct-2021 13:55:08 UTC] PHP   9. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:772
+[13-Oct-2021 13:55:08 UTC] PHP  10. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/content-single.php:99
+[13-Oct-2021 13:55:08 UTC] PHP  11. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 13:55:08 UTC] PHP  12. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 13:55:08 UTC] PHP  13. GeneratePress_Block_Element->build_hook() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:55:08 UTC] PHP  14. GeneratePress_Elements_Helper::build_content() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-block.php:397
+[13-Oct-2021 13:55:08 UTC] PHP  15. apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-elements-helper.php:151
+[13-Oct-2021 13:55:08 UTC] PHP  16. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:189
+[13-Oct-2021 13:55:08 UTC] PHP  17. generate_add_block_element_content_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:55:08 UTC] PHP  18. do_shortcode() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/elements.php:182
+[13-Oct-2021 13:55:08 UTC] PHP  19. preg_replace_callback() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:228
+[13-Oct-2021 13:55:08 UTC] PHP  20. do_shortcode_tag() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:228
+[13-Oct-2021 13:55:08 UTC] PHP  21. {closure:/home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:38-60}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:356
+[13-Oct-2021 13:55:08 UTC] PHP  22. acf_photo_gallery() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:42
+[13-Oct-2021 13:55:08 UTC] PHP  23. acf_photo_gallery_make_images() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php:45
+[13-Oct-2021 13:55:08 UTC] PHP  24. explode() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php:6
+[13-Oct-2021 13:56:07 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:42
+Stack trace:
+#0 /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php(356): {closure}('', '', 'muestra_imagene...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(muestr...', 'do_shortcode_ta...', '<div class="gb-...')
+#3 /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/elements.php(182): do_shortcode('<div class="gb-...')
+#4 /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php(303): generate_add_block_element_content_filters('<div class="gb-...')
+#5 /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php(189): WP_Hook->apply_filters('<div class="gb-...', Array)
+#6 /ho in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php on line 42
+[13-Oct-2021 13:56:48 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php on line 6
+[13-Oct-2021 13:56:48 UTC] PHP Stack trace:
+[13-Oct-2021 13:56:48 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:0
+[13-Oct-2021 13:56:48 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:17
+[13-Oct-2021 13:56:48 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-blog-header.php:19
+[13-Oct-2021 13:56:48 UTC] PHP   4. include() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template-loader.php:106
+[13-Oct-2021 13:56:48 UTC] PHP   5. generate_do_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/single.php:29
+[13-Oct-2021 13:56:48 UTC] PHP   6. get_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/inc/theme-functions.php:595
+[13-Oct-2021 13:56:48 UTC] PHP   7. locate_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/general-template.php:204
+[13-Oct-2021 13:56:48 UTC] PHP   8. load_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:716
+[13-Oct-2021 13:56:48 UTC] PHP   9. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:772
+[13-Oct-2021 13:56:48 UTC] PHP  10. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/content-single.php:99
+[13-Oct-2021 13:56:48 UTC] PHP  11. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 13:56:48 UTC] PHP  12. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 13:56:48 UTC] PHP  13. GeneratePress_Block_Element->build_hook() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:56:48 UTC] PHP  14. GeneratePress_Elements_Helper::build_content() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-block.php:397
+[13-Oct-2021 13:56:48 UTC] PHP  15. apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-elements-helper.php:151
+[13-Oct-2021 13:56:48 UTC] PHP  16. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:189
+[13-Oct-2021 13:56:48 UTC] PHP  17. generate_add_block_element_content_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:56:48 UTC] PHP  18. do_shortcode() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/elements.php:182
+[13-Oct-2021 13:56:48 UTC] PHP  19. preg_replace_callback() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:228
+[13-Oct-2021 13:56:48 UTC] PHP  20. do_shortcode_tag() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:228
+[13-Oct-2021 13:56:48 UTC] PHP  21. {closure:/home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:38-61}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:356
+[13-Oct-2021 13:56:48 UTC] PHP  22. acf_photo_gallery() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:42
+[13-Oct-2021 13:56:48 UTC] PHP  23. acf_photo_gallery_make_images() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php:45
+[13-Oct-2021 13:56:48 UTC] PHP  24. explode() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php:6
+[13-Oct-2021 13:56:56 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php on line 6
+[13-Oct-2021 13:56:56 UTC] PHP Stack trace:
+[13-Oct-2021 13:56:56 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:0
+[13-Oct-2021 13:56:56 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:17
+[13-Oct-2021 13:56:56 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-blog-header.php:19
+[13-Oct-2021 13:56:56 UTC] PHP   4. include() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template-loader.php:106
+[13-Oct-2021 13:56:56 UTC] PHP   5. generate_do_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/single.php:29
+[13-Oct-2021 13:56:56 UTC] PHP   6. get_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/inc/theme-functions.php:595
+[13-Oct-2021 13:56:56 UTC] PHP   7. locate_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/general-template.php:204
+[13-Oct-2021 13:56:56 UTC] PHP   8. load_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:716
+[13-Oct-2021 13:56:56 UTC] PHP   9. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:772
+[13-Oct-2021 13:56:56 UTC] PHP  10. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/content-single.php:99
+[13-Oct-2021 13:56:56 UTC] PHP  11. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 13:56:56 UTC] PHP  12. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 13:56:56 UTC] PHP  13. GeneratePress_Block_Element->build_hook() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:56:56 UTC] PHP  14. GeneratePress_Elements_Helper::build_content() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-block.php:397
+[13-Oct-2021 13:56:56 UTC] PHP  15. apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-elements-helper.php:151
+[13-Oct-2021 13:56:56 UTC] PHP  16. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:189
+[13-Oct-2021 13:56:56 UTC] PHP  17. generate_add_block_element_content_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:56:56 UTC] PHP  18. do_shortcode() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/elements.php:182
+[13-Oct-2021 13:56:56 UTC] PHP  19. preg_replace_callback() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:228
+[13-Oct-2021 13:56:56 UTC] PHP  20. do_shortcode_tag() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:228
+[13-Oct-2021 13:56:56 UTC] PHP  21. {closure:/home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:38-61}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:356
+[13-Oct-2021 13:56:56 UTC] PHP  22. acf_photo_gallery() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:42
+[13-Oct-2021 13:56:56 UTC] PHP  23. acf_photo_gallery_make_images() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php:45
+[13-Oct-2021 13:56:56 UTC] PHP  24. explode() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php:6
+[13-Oct-2021 13:57:47 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php on line 6
+[13-Oct-2021 13:57:47 UTC] PHP Stack trace:
+[13-Oct-2021 13:57:47 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:0
+[13-Oct-2021 13:57:47 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:17
+[13-Oct-2021 13:57:47 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-blog-header.php:19
+[13-Oct-2021 13:57:47 UTC] PHP   4. include() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template-loader.php:106
+[13-Oct-2021 13:57:47 UTC] PHP   5. generate_do_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/single.php:29
+[13-Oct-2021 13:57:47 UTC] PHP   6. get_template_part() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/inc/theme-functions.php:595
+[13-Oct-2021 13:57:47 UTC] PHP   7. locate_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/general-template.php:204
+[13-Oct-2021 13:57:47 UTC] PHP   8. load_template() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:716
+[13-Oct-2021 13:57:47 UTC] PHP   9. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/template.php:772
+[13-Oct-2021 13:57:47 UTC] PHP  10. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/content-single.php:99
+[13-Oct-2021 13:57:47 UTC] PHP  11. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 13:57:47 UTC] PHP  12. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 13:57:47 UTC] PHP  13. GeneratePress_Block_Element->build_hook() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:57:47 UTC] PHP  14. GeneratePress_Elements_Helper::build_content() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-block.php:397
+[13-Oct-2021 13:57:47 UTC] PHP  15. apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/class-elements-helper.php:151
+[13-Oct-2021 13:57:47 UTC] PHP  16. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:189
+[13-Oct-2021 13:57:47 UTC] PHP  17. generate_add_block_element_content_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 13:57:47 UTC] PHP  18. do_shortcode() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/gp-premium/elements/elements.php:182
+[13-Oct-2021 13:57:47 UTC] PHP  19. preg_replace_callback() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:228
+[13-Oct-2021 13:57:47 UTC] PHP  20. do_shortcode_tag() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:228
+[13-Oct-2021 13:57:47 UTC] PHP  21. {closure:/home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:38-61}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/shortcodes.php:356
+[13-Oct-2021 13:57:47 UTC] PHP  22. acf_photo_gallery() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php:42
+[13-Oct-2021 13:57:47 UTC] PHP  23. acf_photo_gallery_make_images() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php:45
+[13-Oct-2021 13:57:47 UTC] PHP  24. explode() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/navz-photo-gallery/includes/acf_photo_gallery.php:6
+[13-Oct-2021 14:08:10 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php on line 44
+[13-Oct-2021 14:45:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php on line 342
+[13-Oct-2021 14:45:20 UTC] PHP Stack trace:
+[13-Oct-2021 14:45:20 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin-ajax.php:0
+[13-Oct-2021 14:45:20 UTC] PHP   2. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin-ajax.php:187
+[13-Oct-2021 14:45:20 UTC] PHP   3. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 14:45:20 UTC] PHP   4. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 14:45:20 UTC] PHP   5. Awl_Portfolio_Filter_Gallery->_ajax_pfg_gallery() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 14:45:20 UTC] PHP   6. Awl_Portfolio_Filter_Gallery->_pfg_ajax_callback_function() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:361
+[13-Oct-2021 14:45:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php on line 342
+[13-Oct-2021 14:45:20 UTC] PHP Stack trace:
+[13-Oct-2021 14:45:20 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin-ajax.php:0
+[13-Oct-2021 14:45:20 UTC] PHP   2. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin-ajax.php:187
+[13-Oct-2021 14:45:20 UTC] PHP   3. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 14:45:20 UTC] PHP   4. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 14:45:20 UTC] PHP   5. Awl_Portfolio_Filter_Gallery->_ajax_pfg_gallery() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 14:45:20 UTC] PHP   6. Awl_Portfolio_Filter_Gallery->_pfg_ajax_callback_function() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:361
+[13-Oct-2021 14:45:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php on line 342
+[13-Oct-2021 14:45:20 UTC] PHP Stack trace:
+[13-Oct-2021 14:45:20 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin-ajax.php:0
+[13-Oct-2021 14:45:20 UTC] PHP   2. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin-ajax.php:187
+[13-Oct-2021 14:45:20 UTC] PHP   3. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 14:45:20 UTC] PHP   4. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 14:45:20 UTC] PHP   5. Awl_Portfolio_Filter_Gallery->_ajax_pfg_gallery() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 14:45:20 UTC] PHP   6. Awl_Portfolio_Filter_Gallery->_pfg_ajax_callback_function() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:361
+[13-Oct-2021 14:45:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php on line 342
+[13-Oct-2021 14:45:20 UTC] PHP Stack trace:
+[13-Oct-2021 14:45:20 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin-ajax.php:0
+[13-Oct-2021 14:45:20 UTC] PHP   2. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin-ajax.php:187
+[13-Oct-2021 14:45:20 UTC] PHP   3. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 14:45:20 UTC] PHP   4. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 14:45:20 UTC] PHP   5. Awl_Portfolio_Filter_Gallery->_ajax_pfg_gallery() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 14:45:20 UTC] PHP   6. Awl_Portfolio_Filter_Gallery->_pfg_ajax_callback_function() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:361
+[13-Oct-2021 14:45:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php on line 342
+[13-Oct-2021 14:45:20 UTC] PHP Stack trace:
+[13-Oct-2021 14:45:20 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin-ajax.php:0
+[13-Oct-2021 14:45:20 UTC] PHP   2. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin-ajax.php:187
+[13-Oct-2021 14:45:20 UTC] PHP   3. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 14:45:20 UTC] PHP   4. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 14:45:20 UTC] PHP   5. Awl_Portfolio_Filter_Gallery->_ajax_pfg_gallery() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 14:45:20 UTC] PHP   6. Awl_Portfolio_Filter_Gallery->_pfg_ajax_callback_function() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:361
+[13-Oct-2021 14:45:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:45:28 UTC] PHP Stack trace:
+[13-Oct-2021 14:45:28 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:45:28 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:45:28 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:45:28 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:45:28 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:45:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:45:28 UTC] PHP Stack trace:
+[13-Oct-2021 14:45:28 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:45:28 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:45:28 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:45:28 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:45:28 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:45:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:45:28 UTC] PHP Stack trace:
+[13-Oct-2021 14:45:28 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:45:28 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:45:28 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:45:28 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:45:28 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:45:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:45:28 UTC] PHP Stack trace:
+[13-Oct-2021 14:45:28 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:45:28 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:45:28 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:45:28 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:45:28 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:45:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:45:28 UTC] PHP Stack trace:
+[13-Oct-2021 14:45:28 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:45:28 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:45:28 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:45:28 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:45:28 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:47:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:47:00 UTC] PHP Stack trace:
+[13-Oct-2021 14:47:00 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:47:00 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:47:00 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:47:00 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:47:00 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:47:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:47:00 UTC] PHP Stack trace:
+[13-Oct-2021 14:47:00 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:47:00 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:47:00 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:47:00 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:47:00 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:47:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:47:00 UTC] PHP Stack trace:
+[13-Oct-2021 14:47:00 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:47:00 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:47:00 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:47:00 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:47:00 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:47:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:47:00 UTC] PHP Stack trace:
+[13-Oct-2021 14:47:00 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:47:00 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:47:00 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:47:00 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:47:00 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:47:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:47:00 UTC] PHP Stack trace:
+[13-Oct-2021 14:47:00 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:47:00 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:47:00 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:47:00 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:47:00 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:47:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:47:26 UTC] PHP Stack trace:
+[13-Oct-2021 14:47:26 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:47:26 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:47:26 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:47:26 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:47:26 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:47:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:47:26 UTC] PHP Stack trace:
+[13-Oct-2021 14:47:26 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:47:26 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:47:26 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:47:26 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:47:26 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:47:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:47:26 UTC] PHP Stack trace:
+[13-Oct-2021 14:47:26 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:47:26 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:47:26 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:47:26 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:47:26 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:47:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:47:26 UTC] PHP Stack trace:
+[13-Oct-2021 14:47:26 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:47:26 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:47:26 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:47:26 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:47:26 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:47:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:47:26 UTC] PHP Stack trace:
+[13-Oct-2021 14:47:26 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:47:26 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:47:26 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:47:26 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:47:26 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:47:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:47:49 UTC] PHP Stack trace:
+[13-Oct-2021 14:47:49 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:47:49 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:47:49 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:47:49 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:47:49 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:47:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:47:49 UTC] PHP Stack trace:
+[13-Oct-2021 14:47:49 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:47:49 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:47:49 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:47:49 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:47:49 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:47:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:47:49 UTC] PHP Stack trace:
+[13-Oct-2021 14:47:49 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:47:49 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:47:49 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:47:49 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:47:49 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:47:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:47:49 UTC] PHP Stack trace:
+[13-Oct-2021 14:47:49 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:47:49 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:47:49 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:47:49 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:47:49 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:47:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:47:49 UTC] PHP Stack trace:
+[13-Oct-2021 14:47:49 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:47:49 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:47:49 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:47:49 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:47:49 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:49:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php on line 342
+[13-Oct-2021 14:49:32 UTC] PHP Stack trace:
+[13-Oct-2021 14:49:32 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin-ajax.php:0
+[13-Oct-2021 14:49:32 UTC] PHP   2. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin-ajax.php:187
+[13-Oct-2021 14:49:32 UTC] PHP   3. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 14:49:32 UTC] PHP   4. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 14:49:32 UTC] PHP   5. Awl_Portfolio_Filter_Gallery->_ajax_pfg_gallery() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 14:49:32 UTC] PHP   6. Awl_Portfolio_Filter_Gallery->_pfg_ajax_callback_function() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:361
+[13-Oct-2021 14:49:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php on line 342
+[13-Oct-2021 14:49:32 UTC] PHP Stack trace:
+[13-Oct-2021 14:49:32 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin-ajax.php:0
+[13-Oct-2021 14:49:32 UTC] PHP   2. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin-ajax.php:187
+[13-Oct-2021 14:49:32 UTC] PHP   3. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 14:49:32 UTC] PHP   4. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 14:49:32 UTC] PHP   5. Awl_Portfolio_Filter_Gallery->_ajax_pfg_gallery() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 14:49:32 UTC] PHP   6. Awl_Portfolio_Filter_Gallery->_pfg_ajax_callback_function() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:361
+[13-Oct-2021 14:49:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:49:39 UTC] PHP Stack trace:
+[13-Oct-2021 14:49:39 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:49:39 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:49:39 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:49:39 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:49:39 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:49:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:49:39 UTC] PHP Stack trace:
+[13-Oct-2021 14:49:39 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:49:39 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:49:39 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:49:39 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:49:39 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:49:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:49:46 UTC] PHP Stack trace:
+[13-Oct-2021 14:49:46 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:49:46 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:49:46 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:49:46 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:49:46 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 14:49:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 14:49:46 UTC] PHP Stack trace:
+[13-Oct-2021 14:49:46 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 14:49:46 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 14:49:46 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 14:49:46 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 14:49:46 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 19:03:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 19:03:17 UTC] PHP Stack trace:
+[13-Oct-2021 19:03:17 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 19:03:17 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 19:03:17 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 19:03:17 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 19:03:17 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 19:03:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 19:03:17 UTC] PHP Stack trace:
+[13-Oct-2021 19:03:17 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 19:03:17 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 19:03:17 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 19:03:17 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 19:03:17 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 19:03:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 19:03:17 UTC] PHP Stack trace:
+[13-Oct-2021 19:03:17 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 19:03:17 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 19:03:17 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 19:03:17 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 19:03:17 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 19:03:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 19:03:17 UTC] PHP Stack trace:
+[13-Oct-2021 19:03:17 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 19:03:17 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 19:03:17 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 19:03:17 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 19:03:17 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 19:03:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/filter-gallery-settings.php on line 135
+[13-Oct-2021 19:03:17 UTC] PHP Stack trace:
+[13-Oct-2021 19:03:17 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:0
+[13-Oct-2021 19:03:17 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/post.php:206
+[13-Oct-2021 19:03:17 UTC] PHP   3. do_meta_boxes() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit-form-advanced.php:688
+[13-Oct-2021 19:03:17 UTC] PHP   4. Awl_Portfolio_Filter_Gallery->pfg_image_upload() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/template.php:1395
+[13-Oct-2021 19:03:17 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:279
+[13-Oct-2021 19:03:35 UTC] PHP Warning:  base64_decode() expects parameter 1 to be string, array given in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/update-old-settings.php on line 63
+[13-Oct-2021 19:03:35 UTC] PHP Stack trace:
+[13-Oct-2021 19:03:35 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit.php:0
+[13-Oct-2021 19:03:35 UTC] PHP   2. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit.php:10
+[13-Oct-2021 19:03:35 UTC] PHP   3. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin.php:259
+[13-Oct-2021 19:03:35 UTC] PHP   4. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 19:03:35 UTC] PHP   5. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 19:03:35 UTC] PHP   6. Awl_Portfolio_Filter_Gallery->update_old_settings_page() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 19:03:35 UTC] PHP   7. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:490
+[13-Oct-2021 19:03:35 UTC] PHP   8. base64_decode() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/update-old-settings.php:63
+[13-Oct-2021 19:03:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/update-old-settings.php on line 98
+[13-Oct-2021 19:03:35 UTC] PHP Stack trace:
+[13-Oct-2021 19:03:35 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit.php:0
+[13-Oct-2021 19:03:35 UTC] PHP   2. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit.php:10
+[13-Oct-2021 19:03:35 UTC] PHP   3. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin.php:259
+[13-Oct-2021 19:03:35 UTC] PHP   4. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 19:03:35 UTC] PHP   5. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 19:03:35 UTC] PHP   6. Awl_Portfolio_Filter_Gallery->update_old_settings_page() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 19:03:35 UTC] PHP   7. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:490
+[13-Oct-2021 19:03:35 UTC] PHP Warning:  base64_decode() expects parameter 1 to be string, array given in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/update-old-settings.php on line 63
+[13-Oct-2021 19:03:35 UTC] PHP Stack trace:
+[13-Oct-2021 19:03:35 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit.php:0
+[13-Oct-2021 19:03:35 UTC] PHP   2. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit.php:10
+[13-Oct-2021 19:03:35 UTC] PHP   3. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin.php:259
+[13-Oct-2021 19:03:35 UTC] PHP   4. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 19:03:35 UTC] PHP   5. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 19:03:35 UTC] PHP   6. Awl_Portfolio_Filter_Gallery->update_old_settings_page() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 19:03:35 UTC] PHP   7. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:490
+[13-Oct-2021 19:03:35 UTC] PHP   8. base64_decode() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/update-old-settings.php:63
+[13-Oct-2021 19:03:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/update-old-settings.php on line 98
+[13-Oct-2021 19:03:35 UTC] PHP Stack trace:
+[13-Oct-2021 19:03:35 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit.php:0
+[13-Oct-2021 19:03:35 UTC] PHP   2. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/edit.php:10
+[13-Oct-2021 19:03:35 UTC] PHP   3. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin.php:259
+[13-Oct-2021 19:03:35 UTC] PHP   4. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 19:03:35 UTC] PHP   5. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 19:03:35 UTC] PHP   6. Awl_Portfolio_Filter_Gallery->update_old_settings_page() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:303
+[13-Oct-2021 19:03:35 UTC] PHP   7. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/plugins/portfolio-filter-gallery/portfolio-filter-gallery.php:490
+[13-Oct-2021 19:48:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/update.php on line 175
+[13-Oct-2021 19:48:30 UTC] PHP Stack trace:
+[13-Oct-2021 19:48:30 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/update.php:0
+[13-Oct-2021 19:48:30 UTC] PHP   2. Plugin_Upgrader->install() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/update.php:171
+[13-Oct-2021 19:48:30 UTC] PHP   3. Plugin_Upgrader->run() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/class-plugin-upgrader.php:137
+[13-Oct-2021 19:48:30 UTC] PHP   4. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/class-wp-upgrader.php:857
+[13-Oct-2021 19:48:30 UTC] PHP   5. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 19:48:30 UTC] PHP   6. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 19:48:30 UTC] PHP   7. wp_version_check() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:301
+[13-Oct-2021 19:48:30 UTC] PHP   8. trigger_error() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/update.php:175
+[13-Oct-2021 19:48:36 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/update.php on line 413
+[13-Oct-2021 19:48:36 UTC] PHP Stack trace:
+[13-Oct-2021 19:48:36 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/update.php:0
+[13-Oct-2021 19:48:36 UTC] PHP   2. Plugin_Upgrader->install() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/update.php:171
+[13-Oct-2021 19:48:36 UTC] PHP   3. Plugin_Upgrader->run() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/class-plugin-upgrader.php:137
+[13-Oct-2021 19:48:36 UTC] PHP   4. do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/includes/class-wp-upgrader.php:857
+[13-Oct-2021 19:48:36 UTC] PHP   5. WP_Hook->do_action() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/plugin.php:470
+[13-Oct-2021 19:48:36 UTC] PHP   6. WP_Hook->apply_filters() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:327
+[13-Oct-2021 19:48:36 UTC] PHP   7. wp_update_plugins() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php:301
+[13-Oct-2021 19:48:36 UTC] PHP   8. trigger_error() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/update.php:413
+[15-Oct-2021 13:49:24 UTC] PHP Parse error:  syntax error, unexpected ''); ?>"></div>' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/mu-plugins/morote-post-types.php on line 48
+[15-Oct-2021 14:46:03 UTC] PHP Fatal error:  Cannot redeclare morote_files() (previously declared in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress_child/functions.php:11) in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/functions.php on line 112
+[15-Oct-2021 14:46:03 UTC] PHP Stack trace:
+[15-Oct-2021 14:46:03 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin-ajax.php:0
+[15-Oct-2021 14:46:03 UTC] PHP   2. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-admin/admin-ajax.php:22
+[15-Oct-2021 14:46:03 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-load.php:50
+[15-Oct-2021 14:46:03 UTC] PHP   4. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-config.php:84
+[15-Oct-2021 14:46:56 UTC] PHP Fatal error:  Cannot redeclare morote_files() (previously declared in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress_child/functions.php:11) in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/functions.php on line 112
+[15-Oct-2021 14:46:56 UTC] PHP Stack trace:
+[15-Oct-2021 14:46:56 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:0
+[15-Oct-2021 14:46:56 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:17
+[15-Oct-2021 14:46:56 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-blog-header.php:13
+[15-Oct-2021 14:46:56 UTC] PHP   4. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-load.php:50
+[15-Oct-2021 14:46:56 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-config.php:84
+[15-Oct-2021 14:46:57 UTC] PHP Fatal error:  Cannot redeclare morote_files() (previously declared in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress_child/functions.php:11) in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-content/themes/generatepress/functions.php on line 112
+[15-Oct-2021 14:46:57 UTC] PHP Stack trace:
+[15-Oct-2021 14:46:57 UTC] PHP   1. {main}() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:0
+[15-Oct-2021 14:46:57 UTC] PHP   2. require() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/index.php:17
+[15-Oct-2021 14:46:57 UTC] PHP   3. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-blog-header.php:13
+[15-Oct-2021 14:46:57 UTC] PHP   4. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-load.php:50
+[15-Oct-2021 14:46:57 UTC] PHP   5. require_once() /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-config.php:84
+[12-Jan-2022 10:06:49 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-object-cache.php:493
+Stack trace:
+#0 /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-object-cache.php(290): WP_Object_Cache->_exists('alloptions', 'options')
+#1 /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/cache.php(125): WP_Object_Cache->get('alloptions', 'options', false, NULL)
+#2 /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/option.php(277): wp_cache_get('alloptions', 'options', false)
+#3 /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/option.php(163): wp_load_alloptions()
+#4 /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/functions.php(6119): get_option('timezone_string')
+#5 /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-hook.php(305): wp_timezone_override_offset(false)
+#6 /hom in /home/guillermo/Documentos/Webs/LocalSites/morote/app/public/wp-includes/class-wp-object-cache.php on line 493

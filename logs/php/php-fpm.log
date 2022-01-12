@@ -1,0 +1,34 @@
+[01-Oct-2021 10:14:29] NOTICE: fpm is running, pid 537674
+[01-Oct-2021 10:14:29] NOTICE: ready to handle connections
+[13-Oct-2021 11:50:58] NOTICE: fpm is running, pid 586824
+[13-Oct-2021 11:50:58] NOTICE: ready to handle connections
+[13-Oct-2021 13:10:37] NOTICE: fpm is running, pid 8710
+[13-Oct-2021 13:10:37] NOTICE: ready to handle connections
+[13-Oct-2021 14:09:02] NOTICE: Terminating ...
+[13-Oct-2021 15:10:35] NOTICE: fpm is running, pid 6733
+[13-Oct-2021 15:10:35] NOTICE: ready to handle connections
+[13-Oct-2021 17:34:18] NOTICE: Terminating ...
+[13-Oct-2021 21:01:05] NOTICE: fpm is running, pid 72651
+[13-Oct-2021 21:01:05] NOTICE: ready to handle connections
+[13-Oct-2021 22:27:13] NOTICE: Terminating ...
+[14-Oct-2021 15:55:21] NOTICE: fpm is running, pid 35434
+[14-Oct-2021 15:55:21] NOTICE: ready to handle connections
+[14-Oct-2021 17:35:13] ERROR: Another FPM instance seems to already listen on /home/guillermo/.config/Local/run/DAmhZeDTL/php/php-fpm.socket
+[14-Oct-2021 17:35:13] ERROR: FPM initialization failed
+[14-Oct-2021 17:35:13] ERROR: Another FPM instance seems to already listen on /home/guillermo/.config/Local/run/DAmhZeDTL/php/php-fpm.socket
+[14-Oct-2021 17:35:13] ERROR: FPM initialization failed
+[14-Oct-2021 17:35:14] ERROR: Another FPM instance seems to already listen on /home/guillermo/.config/Local/run/DAmhZeDTL/php/php-fpm.socket
+[14-Oct-2021 17:35:14] ERROR: FPM initialization failed
+[14-Oct-2021 17:35:14] ERROR: Another FPM instance seems to already listen on /home/guillermo/.config/Local/run/DAmhZeDTL/php/php-fpm.socket
+[14-Oct-2021 17:35:14] ERROR: FPM initialization failed
+[14-Oct-2021 21:35:55] NOTICE: Terminating ...
+[15-Oct-2021 11:35:10] NOTICE: fpm is running, pid 577789
+[15-Oct-2021 11:35:10] NOTICE: ready to handle connections
+[15-Oct-2021 15:24:44] NOTICE: fpm is running, pid 51078
+[15-Oct-2021 15:24:44] NOTICE: ready to handle connections
+[15-Oct-2021 17:19:12] NOTICE: Terminating ...
+[16-Oct-2021 16:52:04] NOTICE: fpm is running, pid 154425
+[16-Oct-2021 16:52:04] NOTICE: ready to handle connections
+[16-Oct-2021 17:08:23] NOTICE: Terminating ...
+[12-Jan-2022 09:28:27] NOTICE: fpm is running, pid 4463
+[12-Jan-2022 09:28:27] NOTICE: ready to handle connections
